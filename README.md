@@ -1,3 +1,6 @@
+This is the repo for my personal website tracepowers.com. I updated it to be a single-page app using react(4/18/19). React is a cool framework and I hope to continue using it in the future.
+
+Create React App Info:
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

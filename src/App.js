@@ -39,6 +39,8 @@ class App extends React.Component {
       return <TravelsPage/>;
     }else if(selected=='hobbies'){
       return <HobbiesPage/>;
+    }else if(selected=='about-website'){
+      return <HobbiesPage/>;
     }else{
       return <h1 className="page-header">Coming Soon</h1>;
     }

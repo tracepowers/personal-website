@@ -6,7 +6,7 @@ import wakeboarding from '../Images/Wakeboarding.jpg';
 import pingpong from '../Images/pingPong.jpg';
 import overwatch from '../Images/overwatch.jpg';
 import chicagobears from '../Images/chicagoBears.png';
-import superSmashBros from '../Images/superSmashBros.jpg';
+import superSmashBros from '../Images/superSmashBros.png';
 import ImageGallery from 'react-image-gallery';
 
 class HobbiesPage extends React.Component {

@@ -1,0 +1,27 @@
+.App {
+  min-height: 100%;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.Sidebar-Content {
+  text-align: center;
+  padding: "16px";
+}
+
+.page-header {
+  text-align: center;
+  margin-bottom: 5%;
+  margin-top: 2%;
+}
+
+.react-bs-table-container {
+height:100%;
+}
+
+.react-bs-container-body {
+max-height: 80vmin;
+overflow-y: scroll;
+}

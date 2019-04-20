@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import {Container, Row, Col, Alert, Image} from 'react-bootstrap';
 
-class TravelsPage extends React.Component {
+class AboutPage extends React.Component {
 
   constructor(props) {
     super(props);
@@ -20,13 +20,10 @@ class TravelsPage extends React.Component {
             configured to host a static website. The code for this site is on my github at <a href="https://github.com/tracepowers/personal-website"> this link</a>. My personal
             website is mildly a resume website, so if you are interested in contacting me about an opportunity please email me at tracepowers@gmail.com.
           </Alert>
-          <Col md={12}>
-            <Image src={visitedCountries}  fluid/>
-          </Col>
         </Row>
       </Container>
     );
   }
 }
 
-export default TravelsPage;
+export default AboutPage;

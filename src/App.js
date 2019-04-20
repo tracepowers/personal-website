@@ -6,6 +6,7 @@ import MySideNav from './Components/MySideNav.js';
 import SkateboardPage from './Components/SkateboardPage.js';
 import TravelsPage from './Components/TravelsPage.js';
 import HobbiesPage from './Components/HobbiesPage.js';
+import AboutPage from './Components/AboutPage.js';
 import './App.css';
 import "../node_modules/react-image-gallery/styles/css/image-gallery.css";
 import {Helmet} from "react-helmet";
@@ -40,7 +41,7 @@ class App extends React.Component {
     }else if(selected=='hobbies'){
       return <HobbiesPage/>;
     }else if(selected=='about-website'){
-      return <HobbiesPage/>;
+      return <AboutPage/>;
     }else{
       return <h1 className="page-header">Coming Soon</h1>;
     }

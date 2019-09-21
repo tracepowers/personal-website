@@ -1,6 +1,11 @@
 .App {
   min-height: 100%;
 }
+@media (max-width: 768px){
+  .App {
+    padding-left: 15%;
+  }
+}
 
 .App-link {
   color: #61dafb;
@@ -21,7 +26,16 @@
 height:100%;
 }
 
-.react-bs-container-body {
-max-height: 80vmin;
-overflow-y: scroll;
+@media (max-width: 480px) {
+  .react-bs-container-body    {
+      max-height: 100%;
+      overflow-y: scroll;
+  }
+}
+
+@media (min-width: 480px) {
+  .react-bs-container-body {
+    max-height: 80vmin;
+    overflow-y: scroll;
+  }
 }

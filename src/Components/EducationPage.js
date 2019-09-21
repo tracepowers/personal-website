@@ -1,11 +1,7 @@
-import React, { Component } from 'react';
-import {Container, Row, Col, Alert, Table} from 'react-bootstrap';
+import React from 'react';
+import {Container, Row, Table} from 'react-bootstrap';
 
 class EducationPage extends React.Component {
-
-  constructor(props) {
-    super(props);
-  }
 
   render() {
 
@@ -14,7 +10,7 @@ class EducationPage extends React.Component {
         <h1 className='page-header'>Interesting Courses</h1>
         <Row className="justify-content-md-center">
           <div className="react-bs-container-body">
-            <Table striped hover scroll >
+            <Table striped hover >
               <thead>
           				<tr>
             					<th width="200">Course</th>
